@@ -1,0 +1,23 @@
+{
+  "env": {
+    "targets": {
+      "browsers": [
+        "last 2 versions"
+      ]
+    },
+    "testing": {
+      "presets": [
+        "es2017"
+      ]
+    }
+  },
+  "presets": [
+    [
+      "latest"
+    ]
+  ],
+  "plugins": [
+    "syntax-async-functions",
+    "transform-regenerator"
+  ]
+}
